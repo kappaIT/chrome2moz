@@ -23,7 +23,6 @@ Firefox natively supports `chrome.*` APIs, but some Chrome-only APIs don't exist
 ## Features
 
 - **Smart Detection**: Identifies Chrome-only APIs that need conversion
-- **Automatic Conversion**: 61 of 176 Chrome-only APIs have auto-converters (34% coverage)
 - **Manifest Transformation**: Handles MV3 manifest differences for Firefox
 - **Keyboard Shortcut Checker**: Detects conflicts with 60+ Firefox shortcuts
 - **Multiple Formats**: Supports `.crx`, `.zip`, or unpacked directories
@@ -84,11 +83,6 @@ cargo build --release
 - See [docs/FIREFOX_SELF_UNINSTALL_FIX.md](./docs/FIREFOX_SELF_UNINSTALL_FIX.md) for details
 
 ## API Coverage
-
-![API Implementation Progress](https://progress-bar.xyz/27/?scale=100&title=API%20Coverage&width=500&color=122f&suffix=%25)
-
-**61 of 222 Chrome-only APIs** have automatic conversion support
-
 **[View Full API Status →](./CHROME_ONLY_API_IMPLEMENTATION_STATUS.md)**
 
 ## Testing in Firefox
